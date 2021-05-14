@@ -176,11 +176,11 @@
 .my_linSvg svg {
 	stroke-dasharray: 6;
   	animation: dash 35s linear infinite;  	
-  	stroke: rgba(0,0,0,0.4);
+  	stroke: rgba(0,0,0,0.65);
 }
 
 .my_linSvg line {
-	stroke: rgba(0,0,0,0.4);
+	stroke: rgba(0,0,0,0.65);
 }
 
 @keyframes dash {
@@ -191,11 +191,12 @@
 
 @media(max-width: 768px) {
 	.my_linSvg svg {
-		stroke-dasharray: 30;
+		stroke-dasharray: 25;
 	  	animation: dash 4s linear infinite;  	
 	  	stroke: rgba(0,0,0,0.9);
 	  	height: 40px;
 	  	width: 100%;
+	  	stroke-width: 1.5px;
 	}
 
 	.svg_topper {
@@ -215,6 +216,7 @@
 
 	.my_linSvg line {
 		stroke: rgba(0,0,0,0.9);
+		stroke-width: 1.5px;
 	}
 }
 

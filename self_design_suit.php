@@ -2757,41 +2757,6 @@ $('#vertical_tab_nav li').on('click', function() {
     })
 </script>
 <script src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></script>
-<script>
-  const images = document.querySelectorAll('[data-src]');
-  console.log(images);
-
-  function preloadIamge(imglist) {
-    const data_src = imglist.getAttribute("data-src");
-
-    if(!data_src) {
-      return;
-    }
-    else {
-      imglist.src = data_src;
-    }
-  }
-  imgOptions = {
-
-  }
-  const imgObserver = new IntersectionObserver((entries,imgObserver)=>{
-    console.log(imgObserver)
-    entries.forEach((entry)=> {
-      if(!entry.isIntersecting) {
-        return;
-      }
-      else {  
-          preloadIamge(entry.target); 
-          imgObserver.unobserve(entry.target);
-      }
-    })
-  },imgOptions)
-
-
-  images.forEach((listImg)=>{
-    imgObserver.observe(listImg);
-  })
-</script>
   <script>
     var swiper = new Swiper('.swiper-container.product_detail', {
       effect: 'coverflow',

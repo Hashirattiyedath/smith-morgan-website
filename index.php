@@ -242,7 +242,7 @@
         <div class="card">
           <aside data-remodal-target="product_detail_modal-1">
             <div class="card-body">
-              <img loading="lazy" src="./assets/img/home_products/5.jpg" class="img-fluid" alt="">
+              <img loading="lazy" src="assets/img/placeholder.gif" data-src="./assets/img/home_products/5.jpg" class="img-fluid" alt="">
             </div>
             <div class="card-footer">
               <h3 class="card-title">Lorem Ipsum</h3>
@@ -267,7 +267,7 @@
         <div class="card">
           <aside data-remodal-target="product_detail_modal-2">
             <div class="card-body">
-              <img loading="lazy" src="./assets/img/home_products/2.jpg" class="img-fluid" alt="">
+              <img loading="lazy" src="assets/img/placeholder.gif" data-src="./assets/img/home_products/2.jpg" class="img-fluid" alt="">
             </div>
             <div class="card-footer">
               <h3 class="card-title">Lorem Ipsum</h3>
@@ -291,7 +291,7 @@
         <div class="card">
           <aside data-remodal-target="product_detail_modal-3">
             <div class="card-body">
-              <img loading="lazy" src="./assets/img/home_products/3.jpg" class="img-fluid" alt="">
+              <img loading="lazy" src="assets/img/placeholder.gif" data-src="./assets/img/home_products/3.jpg" class="img-fluid" alt="">
             </div>
             <div class="card-footer">
               <h3 class="card-title">Lorem Ipsum</h3>
@@ -315,7 +315,7 @@
         <div class="card">
           <aside data-remodal-target="product_detail_modal-4">
             <div class="card-body">
-              <img loading="lazy" src="./assets/img/home_products/4.jpg" class="img-fluid" alt="">
+              <img loading="lazy" src="assets/img/placeholder.gif" data-src="./assets/img/home_products/4.jpg" class="img-fluid" alt="">
             </div>
             <div class="card-footer">
               <h3 class="card-title">Lorem Ipsum</h3>
@@ -339,7 +339,7 @@
       <div class="col-lg-3 col-md-4 col-sm-6 col-6 wow flipInY">
         <div class="card">
           <div class="card-body">
-            <img loading="lazy" src="./assets/img/home_products/5.jpg" class="img-fluid" alt="">
+            <img loading="lazy" src="assets/img/placeholder.gif" data-src="./assets/img/home_products/5.jpg" class="img-fluid" alt="">
           </div>
           <div class="card-footer">
             <h3 class="card-title">Lorem Ipsum</h3>
@@ -361,7 +361,7 @@
       <div class="col-lg-3 col-md-4 col-sm-6 col-6 wow flipInY" data-wow-delay="0.2s">
         <div class="card">
           <div class="card-body">
-            <img loading="lazy" src="./assets/img/home_products/2.jpg" class="img-fluid" alt="">
+            <img loading="lazy" src="assets/img/placeholder.gif" data-src="./assets/img/home_products/2.jpg" class="img-fluid" alt="">
           </div>
           <div class="card-footer">
             <h3 class="card-title">Lorem Ipsum</h3>
@@ -383,7 +383,7 @@
       <div class="col-lg-3 col-md-4 col-sm-6 col-6 wow flipInY" data-wow-delay="0.4s">
         <div class="card">
           <div class="card-body">
-            <img loading="lazy" src="./assets/img/home_products/3.jpg" class="img-fluid" alt="">
+            <img loading="lazy" src="assets/img/placeholder.gif" data-src="./assets/img/home_products/3.jpg" class="img-fluid" alt="">
           </div>
           <div class="card-footer">
             <h3 class="card-title">Lorem Ipsum</h3>
@@ -405,7 +405,7 @@
       <div class="col-lg-3 col-md-4 col-sm-6 col-6 wow flipInY" data-wow-delay="0.6s">
         <div class="card">
           <div class="card-body">
-            <img loading="lazy" src="./assets/img/home_products/4.jpg" class="img-fluid" alt="">
+            <img loading="lazy" src="assets/img/placeholder.gif" data-src="./assets/img/home_products/4.jpg" class="img-fluid" alt="">
           </div>
           <div class="card-footer">
             <h3 class="card-title">Lorem Ipsum</h3>
@@ -1036,6 +1036,7 @@
 <?php $stickyStop = ""; include "footer_common.php" ?>
 <script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
 
+
 <script>
   $('.owl-carousel').owlCarousel({
     loop:true,
@@ -1043,7 +1044,6 @@
     dots:false,
     nav:true,
     autoplay:true,
-    animateOut: 'slideOutUp',
     responsive:{
         0:{
             items:1
