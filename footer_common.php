@@ -8,9 +8,13 @@
   <h5>Loading...</h5>
 </div>
 
+
+
+
 <!-- ===== Enquiry btn ===== -->
 <button type="button" class="enquiry_btn d-none d-md-block" data-remodal-target="modal">CONNECT</button>
-<button type="button" class="enquiry_btn enevelope d-block d-md-none" data-remodal-target="modal"><i class="fa fa-envelope"></i></button>
+<button type="button" class="enquiry_btn track_link" data-remodal-target="modal_track">TRACK</button>
+<!-- <button type="button" class="enquiry_btn enevelope d-block d-md-none" data-remodal-target="modal"><i class="fa fa-envelope"></i></button> -->
 
 <div class="remodal enquiry_remodal" data-remodal-id="modal" data-remodal-options="hashTracking: false, closeOnOutsideClick: false">
   <button data-remodal-action="close" class="remodal-close"></button>
@@ -37,6 +41,20 @@
   </div>
   <img loading="lazy" src="assets/img/enquiry_modal_bg.png" class="img-fluid enquery_modal_bg" alt="">
   <img src="assets/img/simple_bg.jpg" class="img-fluid simple_bg"  alt="">
+</div>
+<!-- ===End Enquiry btn === -->
+
+<div class="remodal track_login_modal" data-remodal-id="modal_track" data-remodal-options="hashTracking: false, closeOnOutsideClick: false">
+  <button data-remodal-action="close" class="remodal-close"></button>
+  <h3>TRACK YOUR ORDER</h3>
+
+  <!-- form -->
+  <form action="tracking.php" method="get" class="tracking_login_form" autocomplete="off">
+    <input type="text" class="form-control" name="orderId" placeholder="Order ID" pattern=".{3,}" title="Order ID minimum 3 Charactor" required autocomplete="off">
+    <input type="text" class="form-control" name="number" placeholder="Mobile" pattern="[0-9]{10}" required autocomplete="off" title="Type 10 digits only">
+     <button type="submit">Go Now <i class="icofont-hand-drawn-right"></i></button>
+  </form>
+
 </div>
 <!-- ===End Enquiry btn === -->
 

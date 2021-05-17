@@ -921,9 +921,9 @@ font-size: 0.9em;
     padding: 6px;
   }
 
-  .enquiry_btn {
+/*   .enquiry_btn {
     display: none !important;
-  }
+  } */
 
   input[type="radio"] + label:hover {
       transform: translateY(0px);

@@ -978,3 +978,129 @@
 	overflow-x: unset !important;
 	overflow-y: unset !important;
 }
+
+/* .enquiry_btn {
+	border-radius: 0;
+} */
+
+.enquiry_btn.track_link {
+	top: 48%;
+	right: -33px;	
+}
+
+.track_login_modal {
+	border-bottom: 4px solid transparent;
+	border-image-source: linear-gradient(to right, #00000000, #ffffffdb, #fff0);
+	border-image-slice: 1;
+	background: linear-gradient(to left, rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url('../img/track_modal_bg.jpg') no-repeat center / cover;
+}
+
+
+.track_login_modal * {
+}
+
+.track_login_modal h3 {
+	margin-bottom: 1em;
+	color: whitesmoke !important;
+	font-size: 2.3em;
+	font-family: var(--nunito)
+}
+
+.tracking_login_form input {
+	background-color: transparent !important;
+	border: none;
+	border-bottom: 1px solid #eee;
+}
+
+.tracking_login_form input:focus {
+	padding-left: 5px;
+}
+
+.tracking_login_form input:focus, .tracking_login_form input:active {
+	background-color: transparent !important;
+	box-shadow: none !important;
+	outline: none !important;
+	border: none !important;
+	border-bottom: 1px solid #eee !important;
+}
+
+.tracking_login_form input:valid {
+	border-bottom: 1px solid #28d228 !important;
+}
+
+
+.tracking_login_form {
+	max-width: 500px;
+	margin: auto;
+}
+
+.tracking_login_form input {
+	margin-bottom: 1.5em;
+	color: whitesmoke !important;
+	font-family: var(--nunito);
+	transition: 0.3s ease-in-out all;
+}
+
+.tracking_login_form button[type=submit] {
+	margin-top: 2em;
+	background: transparent;
+	border: 1px solid #eee;
+	color: white;
+	padding: 0.5em 1em;
+	font-family: var(--nunito);
+	background: rgba(0,0,0,0.6);
+	transition: 0.2s ease all;
+}
+
+.tracking_login_form button[type=submit] i {
+	transition: 0.2s ease all;
+}
+
+.tracking_login_form button[type=submit]:hover i {
+	display: inline-block;
+	animation: activeMove 0.3s infinite alternate;
+}
+
+@keyframes activeMove {
+	0% {
+		transform: translateX(0px);
+	}
+	100% {
+		transform: translateX(6px);
+	}
+}
+
+.tracking_login_form input::placeholder {
+	color: #eee;
+	font-family: var(--nunito);
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-weight: normal;
+}
+
+.track_login_modal .remodal-close {
+	transform: scale(1.2)
+}
+
+.track_login_modal .remodal-close::before {
+    top: 5px;
+    left: 5px;
+}
+
+@media (max-width: 768px) {
+	.track_login_modal h3 {
+		margin-bottom: 0.5em;
+	    color: whitesmoke !important;
+	    font-size: 2em;
+	    font-family: var(--nunito);
+	    line-height: 1.4em;
+	}
+
+	.track_login_modal {
+		padding: 40px 35px;
+	}
+
+	.tracking_login_form button[type=submit] {
+		margin-top: 1em;
+	}
+}
