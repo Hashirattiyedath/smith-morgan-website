@@ -207,7 +207,7 @@
 
 
  <!-- ======= Services Section ======= -->
-    <section class="support_section">
+    <section class="support_section pb-3">
       <div class="container">
               <div class="common_heading doorstep_details">
           <h1>OPEN AND ONGOING SUPPORT</h1>
@@ -221,7 +221,7 @@
             </div>
           </div>
           <div class="col-md-5">
-            <div class="support_intro_img wow bounceInUp" data-wow-delay="0s" data-wow-duration="2000ms" >
+            <div class="support_intro_img wow bounceInUp" data-wow-offset="-250" data-wow-delay="0s" data-wow-duration="2000ms" >
                <img loading="lazy" src="assets/img/help_img.jpg" class="img-fluid" alt="">
             </div>
           </div>
@@ -285,13 +285,157 @@ of our business. Our object is to help you on improving sales and Increasing the
     </section><!-- End Services Section -->
 
 
+
+<!-- ==============================================
+                    end Pizza-video
+      ==============================================  -->
+
+        <section class="support_section Pizza-video">
+          <img src="assets/img/pure_logo.png" class="img-fluid pure_logo" alt="" data-aos="fade-up" data-aos-duration="500">
+            <div class="container">
+
+                <div class="video-content" id="Pizza-our-video">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="subs-form-text">
+                                <!-- title -->
+                                <h2 class="c-white">Connect Us ?</h2>
+                                <!--sub title -->
+                                <p class="c-white">
+                                    We are always Waiting for your<br />
+                                    Valuable Call,
+                                </p>
+                                <a class="btn call_btn grdnt-purple" href="tel:917902348448"> <i class="fa fa-phone pr-2"></i><span>+91 790 2348 448</span></a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <!-- video-play-btn -->
+                            <div class="video-play-btn">
+                                <a class="play-btn" title="Click to play" href="#">
+                                    <i class="fa fa-play"></i>
+                                </a>
+                            </div>
+                            <!-- video-overlay -->
+                            <div class="video-overlay">
+                                <a class="video-overlay-close">&times;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==============================================
+                    end Pizza-video
+      ==============================================  -->
+
+
+
+<section class="office_franchise support_section ">
+  <div class="container"> 
+<div class="common_heading doorstep_details">
+          <h1>OUR FRANCHISE STORES</h1>
+        </div>
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="address_details">
+        <div class="map_ico">
+          <i class="icofont-opencart"></i>
+        </div>
+        <h3>Fragship Store</h3>
+        <p>Able Avenue Building, Near Indian oil pump,  Karassery junction, Mukkam, <br> PIN: 673602</p>
+        <div class="franchise_call">
+            <a href="tel:9995733984">Call Now »</a>
+        </div>
+<!--         <div class="map_ico">
+          <i class="icofont-cart-alt"></i>
+        </div> -->
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="address_details">
+                <div class="map_ico">
+          <i class="icofont-opencart"></i>
+        </div>
+        <h3>Main Franchisee</h3>
+        <p>Anish and Ashith Engineering Building, #27, Gokulam, M.S.R Nagar, Mathikere, <br> Bangalore, 560 054</p>
+        <div class="franchise_call">
+            <a href="tel:9656574075">Call Now »</a>
+        </div>
+      </div>
+    </div>
+     <div class="col-12 col-md-6 col-lg-4">
+      <div class="address_details">
+                <div class="map_ico">
+          <i class="icofont-opencart"></i>
+        </div>
+        <h3>Franchisee</h3>
+        <p>92 Pretoria road, London, <br>E16 4NP</p>
+        <div class="franchise_call">
+            <a href="tel:9656574075">Call Now »</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<section id="counts" class="more__office second">
+
+            <img loading="lazy" src="assets/img/flight-right.png" class="img-fluid flight-right" alt="">
+      <div class="container">
+
+<!--       <div class="main__head text-center pb-md-5">
+        <h3>OUR MORE OFFICES</h3>
+      </div> -->
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch aos-init aos-animate" data-aos="fade-up" data-aos-delay="50">
+            <div class="count-box">
+              <div class="d-flex align-items-center">
+                <i class="icofont-opencart"></i>
+                <span data-toggle="counter-up">Franchise</span>
+              </div>
+              <p>Opposite IIM Calicut, Calicut road, Kunnamangalam, kozhikode</p>
+              <a href="#">Call Now »</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+            <div class="count-box">
+              <div class="d-flex align-items-center">
+                <i class="icofont-opencart"></i>
+                <span data-toggle="counter-up">Franchise</span>
+              </div>
+              <p>Near KVR bajaj, Mangad, Omassery, Kozhikode</p>
+              <a href="#">Call Now »</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch aos-init aos-animate" data-aos="fade-up" data-aos-delay="150">
+            <div class="count-box">
+              <div class="d-flex align-items-center">
+                <i class="icofont-opencart"></i>
+                <span data-toggle="counter-up">Mini Franchise</span>
+              </div>
+              <p>Dcore, Bus stand building, Ramanatukara, kozhikode</p>
+              <a href="#">Call Now »</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+
 </main>
 
 
 
 <?php $stickyStop = ""; include "footer_common.php" ?>
-
-
 
 
   <script>
@@ -321,6 +465,28 @@ of our business. Our object is to help you on improving sales and Increasing the
     }
   });*/
   </script>
+
+<script>
+      $('.video-play-btn').on('click', function(e){
+        e.preventDefault();
+        $('.video-overlay').addClass('open');
+        $(".video-overlay").append('<iframe class="video_frame" width="50%" height="60%" src="https://www.youtube.com/embed/rS3SSo4MIfI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+        /* Replace Your video Link */
+    });
+
+    $('.video-overlay, .video-overlay-close').on('click', function(e){
+        e.preventDefault();
+        close_video();
+    });
+
+    $(document).keyup(function(e){
+        if(e.keyCode === 27) { close_video().click; }
+    });
+
+    function close_video() {
+        $('.video-overlay.open').removeClass('open').find('iframe').remove();
+    };
+</script>
 
 </body>
 

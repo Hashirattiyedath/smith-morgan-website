@@ -976,6 +976,10 @@ font-size: 0.9em;
 
 .products_intro {
   padding :  8em 0 4.5em;
+/*       width: 100%;
+    background: url(../img/product_page_bg.png) no-repeat;
+    background-size: 800px; */
+    background-position: left -200px bottom;
 }
 
 
@@ -1835,6 +1839,14 @@ background-position: center
   padding: 0 2px;
  }
 
+ .contact-detail p {
+  margin-bottom: 5px;
+ }
+
+ .contact-detail h2 + p {
+  margin-top: 15px;
+ }
+
 .contact-info .col-md-4:not(:last-child){
   border-right: 1px solid #4d4c4c; 
  } 
@@ -1913,8 +1925,9 @@ filter: grayscale(60%) invert(95%) contrast(95%);
 .social-icons div{
   margin: 0 10px 10px 10px;
 }
-.social-icons div i:hover{
-  background-color: #fff;
+.social-icons div:hover {
+  transform: scale(1.2);
+  transition: 0.3s ease-in-out all;
 }
 .social-media h1{
   font-size: 30px;

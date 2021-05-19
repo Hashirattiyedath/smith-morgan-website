@@ -51,7 +51,7 @@
 				<div class="address contact-detail">
 					<i class="fa fa-map-marker" aria-hidden="true"></i>
 					<h2>ADDRESS</h2>
-					<p>Able Avenue Building, Junction, Karassery, Mukkam, Kerala 673602</p>
+					<p>Anish and Ashith Engineering Building, #27, Gokulam, Next M.S Ramaiah Institute of Business Studies, M.S.R Nagar, Mathikere, <br> Bangalore, 560 054</p>
 				</div>
 			</div>
 			<div class="col-md-4">
@@ -102,17 +102,17 @@
 <div class="social-media">
 		<div class="social-icons">
 			<div class="whatsapp">
-				<a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+				<a href="https://wa.me/917902348448?text=*Hey Smith and Morgan*..🖐 I would like to have a talk ❤️" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
 				
 			</div>
 			<div class="facebook">
-				<a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+				<a href="https://www.facebook.com/Smith-Morgan-205336296673490" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
 			</div>
 			<div class="instagram">
-				<a href=""><i class="fa fa-instagram" aria-hidden="true"></a></i>
+				<a href="https://www.instagram.com/smith_and_morgan/?hl=en" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></a></i>
 			</div>
 			<div class="mail">
-				<a href=""><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+				<a href="mailto:smithandmorgan@gmail.com" target="_blank"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
 			</div>
 		</div>
 </div>

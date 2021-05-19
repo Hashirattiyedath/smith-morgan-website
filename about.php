@@ -166,6 +166,35 @@
     </section><!-- End Testimonials Section -->
 
 
+<div class="online_store">
+  <div class="container">
+
+    <!-- start-row -->
+    <div class="row">
+      <div class="col-md-6">
+        <div class="avail_text">
+            <h1>Our Products Also Available these Platforms</h1>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            <div class="verified_label">
+                <img src="./assets/img/online_store/1.png" class="img-fluid" data-aos-offset="100" data-aos="fade-left" data-aos-duration="500" data-aos-delay="100" alt="">
+                <img src="./assets/img/online_store/2.png" class="img-fluid" data-aos-offset="100" data-aos="fade-left" data-aos-duration="500" data-aos-delay="250" alt="">
+                <img src="./assets/img/online_store/3.png" class="img-fluid" data-aos-offset="100" data-aos="fade-left" data-aos-duration="500" data-aos-delay="400" alt="">
+            </div>
+        </div>
+      </div>
+      <div class="col-md-6 mn__">
+        <div class="online_store--logo">
+          <img src="./assets/img/online_store/amazon.jpg" class="img-fluid wow bounceInUp" data-wow-duration="2000ms" data-wow-delay="100ms" data-wow-offset="-200"  alt="">
+          <img src="./assets/img/online_store/ebay.jpg" class="img-fluid wow bounceInUp" data-wow-duration="2000ms" data-wow-delay="200ms" data-wow-offset="-200"  alt="">
+          <img src="./assets/img/online_store/just-dail.png" class="img-fluid  wow bounceInUp" data-wow-duration="2000ms" data-wow-offset="-200"  data-wow-delay="150ms" alt="">
+          <img src="./assets/img/online_store/flipcart.jpg" class="img-fluid  wow bounceInUp" data-wow-duration="2000ms" data-wow-delay="250ms" data-wow-offset="-200"  alt="">
+        </div>
+      </div>
+    </div>
+    <!-- end-row -->
+
+  </div>
+</div>
 
 
 </main>

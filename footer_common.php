@@ -13,7 +13,7 @@
 
 <!-- ===== Enquiry btn ===== -->
 <button type="button" class="enquiry_btn d-none d-md-block" data-remodal-target="modal">CONNECT</button>
-<button type="button" class="enquiry_btn track_link" data-remodal-target="modal_track">TRACK</button>
+<button type="button" class="enquiry_btn track_link" style="<?php if($whatsapp === "whatsapp") { echo "display : var(--none)"; }?>" data-remodal-target="modal_track">TRACK</button>
 <!-- <button type="button" class="enquiry_btn enevelope d-block d-md-none" data-remodal-target="modal"><i class="fa fa-envelope"></i></button> -->
 
 <div class="remodal enquiry_remodal" data-remodal-id="modal" data-remodal-options="hashTracking: false, closeOnOutsideClick: false">

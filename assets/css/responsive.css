@@ -37,11 +37,60 @@
 /*============== TAB VIEW ================*/
 
 @media (min-width:768px) and (max-width:992px) {
+
+	.online_store--logo img {
+		max-width: 160px;
+		padding: 1em;
+    	margin: 0.3em;
+	}
+
+	.online_store .row {
+	    align-items: center;
+	}
+
+	.avail_text h1 {
+		font-size: 1.8em;
+	}
+
+	.avail_text p {
+		font-size: 0.95em;
+	}
+
 	.hero-section .swiper-pagination {
 		left: 50% !important;
 		-webkit-transform: translateX(-50%);
 		    -ms-transform: translateX(-50%);
 		        transform: translateX(-50%);
+	}
+
+	.pure_logo {
+		width: 260px;
+		top: -0px;
+	}
+
+	.support_section.Pizza-video h2 {
+		font-size: 40px;
+	}
+
+	.call_btn {
+		margin-top: 10px;
+	}
+
+	.Pizza-video .call_btn span {
+		font-size: 16px !important;
+	}
+
+	.Pizza-video.support_section {
+		padding-top: 80px !important;
+	}
+
+	.address_details h3 {
+		font-size: 2em;
+	}
+
+	.address_details p {
+		font-size: 0.95em;
+		max-width: 300px !important;
 	}
 
 	.main_works .work {
@@ -864,7 +913,7 @@
 	}
 
 	#testimonials {
-		padding: 20px 0 70px 0;
+		padding: 20px 0 40px 0;
 	}
 
 	#testimonials .not_common_heading h1 {
@@ -1052,8 +1101,68 @@
     	height: 30px;
 	}
 
+	.enquiry_btn.track_link {
+		top: 30%
+	}
+
 	.per_item .item_details .fa-search-plus {
 		 font-size: 1em;
+	}
+
+	.pure_logo {
+		  width: 250px;
+	}
+
+	.Pizza-video.support_section {
+		   padding-top: 60px !important;
+	}
+
+	.Pizza-video.support_section {
+		    padding-bottom: 50px !important;
+	}
+
+	.support_section .common_heading h1 {
+		font-size: 2.3em !important;
+	}
+
+	.address_details h3 {
+		font-size: 1.8em;
+	}
+
+	.office_franchise  .common_heading h1 {
+		line-height: 1.2em;
+	}
+
+	.office_franchise.support_section .common_heading {
+		margin-bottom: 30px;
+	}
+
+	.office_franchise .row .col-md-6 {
+		padding: 2em 1em;
+	}
+
+	.office_franchise {
+		padding-bottom: 0.6em;
+	}
+
+	.more__office {
+		padding-bottom: 3em;
+	}
+
+	.online_store--logo {
+		justify-content: center;
+		padding-top: 1em;
+	}
+
+	.online_store--logo img {
+		max-width: 47%;
+		padding: 1em;
+		margin: 0.3em;
+	}
+
+	.avail_text h1 {
+		font-size: 2em;
+		line-height: 45px;
 	}
 } 
 
@@ -1093,6 +1202,19 @@
 	
 	#msform fieldset.styles {
 		padding: 20px 10px 15px 15px !important;
+	}
+
+	.verified_label {
+		text-align: center;
+	}
+
+	.online_store {
+		border-top: 9px solid #e5e4e4;
+		padding: 3.5em 0 4em;
+	}
+
+	.support_section .common_heading h1 {
+	    font-size: 2.1em !important;
 	}
 
 
