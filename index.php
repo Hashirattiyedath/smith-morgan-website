@@ -1029,9 +1029,31 @@
     </div>
   </div>
 </div>
-
-
 <!-- track modal -->
+
+
+<div class="online_store home">
+  <div class="container">
+
+    <!-- start-row -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="avail_text">
+            <h1>Our Products Also Available <span class="d-none d-md-block">these Platforms</span></h1>
+        </div>
+      </div>
+      <div class="col-md-12 mn__">
+        <div class="online_store--logo">
+          <img src="./assets/img/online_store/amazon.jpg" class="img-fluid wow bounceInUp" data-wow-duration="2000ms" data-wow-delay="100ms" data-wow-offset="-200"  alt="">
+          <img src="./assets/img/online_store/ebay.jpg" class="img-fluid wow bounceInUp" data-wow-duration="2000ms" data-wow-delay="200ms" data-wow-offset="-200"  alt="">
+          <img src="./assets/img/online_store/just-dail.png" class="img-fluid  wow bounceInUp" data-wow-duration="2000ms" data-wow-offset="-200"  data-wow-delay="150ms" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- end-row -->
+
+  </div>
+</div>
 
 
 

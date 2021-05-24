@@ -1791,9 +1791,12 @@ animation: ringing 0.5s infinite alternate;
 }
 
 .avail_text h1 {
-	color: #3f3f3f;
-	font-family: var(--rat);
-	font-weight: bold;
+    background: linear-gradient(to left, #0b0b0b 0%, #3f3f3fd1 40%, #d22c2ca6 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Jost", sans-serif;
+	font-weight: 600;
 	margin-bottom: 0.4em;
 	font-size: 2.3em;
 }
@@ -1802,4 +1805,34 @@ animation: ringing 0.5s infinite alternate;
 	color: #3f3f3f;
 	font-family: var(--rat);
 	max-width: 50ch;
+}
+
+.verified_label.d-md-none.d-block {
+	text-align: center;
+}
+
+.verified_label.d-md-none.d-block {
+	margin-top: 1.3em;
+}
+
+.verified_label.d-md-none.d-block > img {
+	max-width: 55px;
+}
+
+.online_store.home {
+	text-align: center;
+}
+
+.online_store.home .avail_text {
+	max-width: 70ch;
+	margin: auto;
+}
+
+.online_store.home .avail_text h1 {
+	font-size: 2.9em;
+	
+}
+
+.online_store.home .online_store--logo {
+	justify-content: space-evenly;
 }

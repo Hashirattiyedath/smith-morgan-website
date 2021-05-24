@@ -42,7 +42,18 @@
 		max-width: 160px;
 		padding: 1em;
     	margin: 0.3em;
+
 	}
+
+
+	.online_store.home .avail_text {
+		max-width: 50ch;
+	}
+
+	.online_store.home .avail_text h1 {
+		font-size: 2em;
+	}
+
 
 	.online_store .row {
 	    align-items: center;
@@ -590,6 +601,7 @@
 
 	.doorstep_section {
 		padding-top: 2.3rem;
+		padding-bottom: 4em;
 	}
 
 	.doorstep_section .cover {
@@ -1151,18 +1163,32 @@
 
 	.online_store--logo {
 		justify-content: center;
-		padding-top: 1em;
+		padding-top: 0em;
 	}
 
 	.online_store--logo img {
 		max-width: 47%;
 		padding: 1em;
 		margin: 0.3em;
+		box-shadow: 1px 1px 13px rgba(0,0,0,0.1)
 	}
 
 	.avail_text h1 {
 		font-size: 2em;
-		line-height: 45px;
+		line-height: 42px;
+	}
+
+	.online_store.home {
+		padding: 2.5em 0 4em 0 !important;
+	}
+
+	.online_store.home .avail_text {
+		max-width: 30ch;
+	}
+
+	.online_store.home .avail_text h1 {
+		font-size: 2.1em;
+		margin-bottom: 20px;
 	}
 } 
 

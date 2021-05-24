@@ -173,9 +173,9 @@
     <div class="row">
       <div class="col-md-6">
         <div class="avail_text">
-            <h1>Our Products Also Available these Platforms</h1>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-            <div class="verified_label">
+            <h1><span>Our Products</span> Also Available these Platforms</h1>
+            <p>All our products are now available in online stores like Amazon,E-bay, Justdail.. and you can search there and make the required purchase</p>
+            <div class="verified_label d-md-block d-none">
                 <img src="./assets/img/online_store/1.png" class="img-fluid" data-aos-offset="100" data-aos="fade-left" data-aos-duration="500" data-aos-delay="100" alt="">
                 <img src="./assets/img/online_store/2.png" class="img-fluid" data-aos-offset="100" data-aos="fade-left" data-aos-duration="500" data-aos-delay="250" alt="">
                 <img src="./assets/img/online_store/3.png" class="img-fluid" data-aos-offset="100" data-aos="fade-left" data-aos-duration="500" data-aos-delay="400" alt="">
@@ -187,8 +187,12 @@
           <img src="./assets/img/online_store/amazon.jpg" class="img-fluid wow bounceInUp" data-wow-duration="2000ms" data-wow-delay="100ms" data-wow-offset="-200"  alt="">
           <img src="./assets/img/online_store/ebay.jpg" class="img-fluid wow bounceInUp" data-wow-duration="2000ms" data-wow-delay="200ms" data-wow-offset="-200"  alt="">
           <img src="./assets/img/online_store/just-dail.png" class="img-fluid  wow bounceInUp" data-wow-duration="2000ms" data-wow-offset="-200"  data-wow-delay="150ms" alt="">
-          <img src="./assets/img/online_store/flipcart.jpg" class="img-fluid  wow bounceInUp" data-wow-duration="2000ms" data-wow-delay="250ms" data-wow-offset="-200"  alt="">
         </div>
+            <div class="verified_label d-md-none d-block">
+                <img src="./assets/img/online_store/1.png" class="img-fluid" data-aos-offset="100" data-aos="fade-left" data-aos-duration="500" data-aos-delay="100" alt="">
+                <img src="./assets/img/online_store/2.png" class="img-fluid" data-aos-offset="100" data-aos="fade-left" data-aos-duration="500" data-aos-delay="250" alt="">
+                <img src="./assets/img/online_store/3.png" class="img-fluid" data-aos-offset="100" data-aos="fade-left" data-aos-duration="500" data-aos-delay="400" alt="">
+            </div>
       </div>
     </div>
     <!-- end-row -->
